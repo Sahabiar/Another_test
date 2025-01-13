@@ -304,8 +304,38 @@ tr:nth-child(even) {
   border-radius: 8px;
 }
 
-
-
+.title {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+.parent_taka{
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tka {
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  height: 80px;
+  width: 150px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.active{
+  background-color: #C6E4D6;
+}
+.input {
+  padding: 30% 80%;
+  margin: 20px auto;
+}
 
 /* footer style */
 .footer {
